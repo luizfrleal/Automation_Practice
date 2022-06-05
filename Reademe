@@ -1,0 +1,10 @@
+1- Preparando ambiente para execução do projeto
+    Criar um projeto Maven
+    JDK 11
+    Junit 4.43.2
+    Selenium 3.141.59
+    Cucumber Junit 7.0.0
+    Cucumber Java 7.0.0
+
+    Pluggins
+    Cucumber for Java
