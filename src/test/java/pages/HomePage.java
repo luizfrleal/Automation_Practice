@@ -15,12 +15,14 @@ public class HomePage {
     //Proceed to checkout//ul[@id='homefeatured']//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line']//div[@class='product-container']//div[@class='right-block']//div[@class='button-container']//a[@class='button ajax_add_to_cart_button btn btn-default']//span[contains(text(),'Add to cart')]
 
 
-
+    public HomePage(WebDriver driverDoTeste) {
+        this.driver = driverDoTeste;
+    }
 
     public void pesquisarItem (){
         driver.findElement(By.xpath(digitaItem)).sendKeys("Printed Dress");
                }
-    public void buscarItem (){
+    public void clicarBuscar(){
         driver.findElement(By.xpath(btnbuscar)).click();
     }
     public void selecionaItem (){
